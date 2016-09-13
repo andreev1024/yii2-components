@@ -1,0 +1,21 @@
+{
+    "name": "andreev1024/yii2-components",
+    "description": "Yii2 components",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.*@dev",
+        "aws/aws-sdk-php": "3.0.*@dev",
+        "kartik-v/yii2-mpdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "andreev1024\\filters\\": "filters/",
+            "andreev1024\\validators\\": "validators/",
+            "andreev1024\\s3\\": "s3/",
+            "andreev1024\\pdfGenerator\\": "pdfGenerator/",
+            "andreev1024\\note\\": "note/"
+        }
+    }
+}

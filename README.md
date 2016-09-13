@@ -1,0 +1,1 @@
+Components for Yii2. Check details in component's directories.
